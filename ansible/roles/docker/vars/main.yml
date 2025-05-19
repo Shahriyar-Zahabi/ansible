@@ -1,0 +1,13 @@
+docker_prereq_packages_debian:
+  - ca-certificates
+  - curl
+  - gnupg
+  - apt-transport-https
+  - lsb-release
+
+docker_prereq_packages_redhat:
+  - yum-utils
+  - device-mapper-persistent-data
+  - lvm2
+  - dnf-plugins-core
+

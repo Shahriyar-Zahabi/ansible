@@ -1,0 +1,78 @@
+- name: Install prerequisite packages on Debian
+  apt:
+    name: "{{ docker_prereq_packages_debian }}"
+    state: present
+    update_cache: yes
+  become: yes
+  when: ansible_os_family == "Debian"
+
+- name: Add Docker GPG key on Debian
+  ansible.builtin.get_url:
+    url: https://download.docker.com/linux/debian/gpg
+    dest: /etc/apt/keyrings/docker.asc
+    mode: '0644'
+  become: yes
+  when: ansible_os_family == "Debian"
+
+- name: Add Docker repository on Debian
+  ansible.builtin.apt_repository:
+    repo: "deb [arch={{ ansible_architecture }} signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian {{ ansible_lsb.codename }} stable"
+    state: present
+  become: yes
+  when: ansible_os_family == "Debian"
+
+- name: Update apt cache on Debian
+  apt:
+    update_cache: yes
+  become: yes
+  when: ansible_os_family == "Debian"
+
+- name: Install Docker Engine on Debian
+  apt:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+    state: present
+  become: yes
+  when: ansible_os_family == "Debian"
+
+- name: Install prerequisite packages on RedHat
+  yum:
+    name: "{{ docker_prereq_packages_redhat }}"
+    state: present
+  become: yes
+  when: ansible_os_family == "RedHat"
+
+- name: Add Docker repo on RedHat
+  command: dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+  become: yes
+  args:
+    creates: /etc/yum.repos.d/docker-ce.repo
+  when: ansible_os_family == "RedHat"
+
+- name: Install Docker Engine on RedHat
+  yum:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+    state: present
+  become: yes
+  when: ansible_os_family == "RedHat"
+
+- name: Start and enable docker service on RedHat
+  service:
+    name: docker
+    state: started
+    enabled: yes
+  become: yes
+  when: ansible_os_family == "RedHat"
+
+- name: Start and enable docker service on Debian
+  service:
+    name: docker
+    state: started
+    enabled: yes
+  become: yes
+  when: ansible_os_family == "Debian"
