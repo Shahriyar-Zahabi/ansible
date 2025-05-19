@@ -1,2 +1,5 @@
 # Ignore sensitive hosts files
 inventory/**/hosts
+
+# cache directory
+cache/
