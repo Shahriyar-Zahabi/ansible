@@ -2,15 +2,51 @@
 common_packages:
   debian:
     - vim
+    - nano
     - curl
+    - wget
     - git
     - sudo
     - net-tools
+    - iproute2
+    - bash-completion
+    - ca-certificates
     - gnupg
+    - apt-transport-https
+    - software-properties-common
+    - chrony
+    - unzip
+    - zip
+    - tar
+    - traceroute
+    - tcpdump
+    - nmap
+    - htop
+    - dstat
+    - rsyslog
+    - logrotate
+
   redhat:
     - vim
+    - nano
     - curl
+    - wget
     - git
     - sudo
     - net-tools
+    - iproute
+    - bash-completion
+    - ca-certificates
     - gnupg2
+    - epel-release
+    - chrony
+    - unzip
+    - zip
+    - tar
+    - traceroute
+    - tcpdump
+    - nmap
+    - htop
+    - dstat
+    - rsyslog
+    - logrotate
