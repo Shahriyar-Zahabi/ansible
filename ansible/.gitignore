@@ -3,3 +3,6 @@ inventory/**/hosts
 
 # cache directory
 cache/
+
+# the log file 
+ansible.log
