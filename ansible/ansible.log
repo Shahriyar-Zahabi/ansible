@@ -1,0 +1,205 @@
+2025-05-19 01:08:50,685 p=7555 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:08:50,687 p=7555 u=root n=ansible | Starting galaxy role install process
+2025-05-19 01:08:51,346 p=7555 u=root n=ansible | - downloading role 'docker', owned by geerlingguy
+2025-05-19 01:08:52,355 p=7555 u=root n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-docker/archive/6.1.0.tar.gz
+2025-05-19 01:08:52,880 p=7555 u=root n=ansible | - extracting geerlingguy.docker to /root/ansible/ansible/roles/geerlingguy.docker
+2025-05-19 01:08:52,898 p=7555 u=root n=ansible | - geerlingguy.docker (6.1.0) was installed successfully
+2025-05-19 01:08:52,899 p=7555 u=root n=ansible | - downloading role 'general', owned by community
+2025-05-19 01:08:53,292 p=7555 u=root n=ansible | [WARNING]: - community.general was NOT installed successfully: - sorry, community.general was not found on https://galaxy.ansible.com/api/.
+
+2025-05-19 01:08:53,293 p=7555 u=root n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2025-05-19 01:10:21,333 p=7560 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:10:21,334 p=7560 u=root n=ansible | Starting galaxy role install process
+2025-05-19 01:10:21,335 p=7560 u=root n=ansible | - geerlingguy.docker (6.1.0) is already installed, skipping.
+2025-05-19 01:10:21,844 p=7560 u=root n=ansible | - downloading role 'general', owned by community
+2025-05-19 01:10:22,250 p=7560 u=root n=ansible | [WARNING]: - community.general was NOT installed successfully: - sorry, community.general was not found on https://galaxy.ansible.com/api/.
+
+2025-05-19 01:10:22,251 p=7560 u=root n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2025-05-19 01:10:29,465 p=7562 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:10:29,467 p=7562 u=root n=ansible | ERROR! Expecting requirements file to be a dict with the key 'collections' that contains a list of collections to install
+2025-05-19 01:11:47,246 p=7573 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:11:47,248 p=7573 u=root n=ansible | Starting galaxy role install process
+2025-05-19 01:11:47,248 p=7573 u=root n=ansible | - geerlingguy.docker (6.1.0) is already installed, skipping.
+2025-05-19 01:12:02,671 p=7577 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:12:02,673 p=7577 u=root n=ansible | Starting galaxy collection install process
+2025-05-19 01:12:02,673 p=7577 u=root n=ansible | Process install dependency map
+2025-05-19 01:12:02,674 p=7577 u=root n=ansible | |
+2025-05-19 01:12:02,776 p=7577 u=root n=ansible | /
+2025-05-19 01:12:02,913 p=7577 u=root n=ansible | -
+2025-05-19 01:12:03,014 p=7577 u=root n=ansible | \
+2025-05-19 01:12:03,115 p=7577 u=root n=ansible | |
+2025-05-19 01:12:03,221 p=7577 u=root n=ansible | /
+2025-05-19 01:12:03,340 p=7577 u=root n=ansible | -
+2025-05-19 01:12:03,441 p=7577 u=root n=ansible | \
+2025-05-19 01:12:03,542 p=7577 u=root n=ansible | |
+2025-05-19 01:12:03,643 p=7577 u=root n=ansible | /
+2025-05-19 01:12:03,743 p=7577 u=root n=ansible | -
+2025-05-19 01:12:03,844 p=7577 u=root n=ansible | \
+2025-05-19 01:12:03,944 p=7577 u=root n=ansible | |
+2025-05-19 01:12:04,045 p=7577 u=root n=ansible | /
+2025-05-19 01:12:04,164 p=7577 u=root n=ansible | -
+2025-05-19 01:12:04,285 p=7577 u=root n=ansible | \
+2025-05-19 01:12:04,386 p=7577 u=root n=ansible | |
+2025-05-19 01:12:04,487 p=7577 u=root n=ansible | /
+2025-05-19 01:12:04,587 p=7577 u=root n=ansible | -
+2025-05-19 01:12:04,688 p=7577 u=root n=ansible | \
+2025-05-19 01:12:04,801 p=7577 u=root n=ansible | |
+2025-05-19 01:12:04,916 p=7577 u=root n=ansible | /
+2025-05-19 01:12:05,018 p=7577 u=root n=ansible | -
+2025-05-19 01:12:05,119 p=7577 u=root n=ansible | \
+2025-05-19 01:12:05,220 p=7577 u=root n=ansible | |
+2025-05-19 01:12:05,321 p=7577 u=root n=ansible | /
+2025-05-19 01:12:05,426 p=7577 u=root n=ansible | -
+2025-05-19 01:12:05,558 p=7577 u=root n=ansible | \
+2025-05-19 01:12:05,670 p=7577 u=root n=ansible | |
+2025-05-19 01:12:05,771 p=7577 u=root n=ansible | /
+2025-05-19 01:12:05,872 p=7577 u=root n=ansible | -
+2025-05-19 01:12:05,972 p=7577 u=root n=ansible | \
+2025-05-19 01:12:06,073 p=7577 u=root n=ansible | |
+2025-05-19 01:12:06,173 p=7577 u=root n=ansible | /
+2025-05-19 01:12:06,274 p=7577 u=root n=ansible | -
+2025-05-19 01:12:06,374 p=7577 u=root n=ansible | \
+2025-05-19 01:12:06,489 p=7577 u=root n=ansible | |
+2025-05-19 01:12:06,590 p=7577 u=root n=ansible | Starting collection install process
+2025-05-19 01:12:06,591 p=7577 u=root n=ansible | |
+2025-05-19 01:12:06,616 p=7577 u=root n=ansible | Downloading https://galaxy.ansible.com/api/v3/plugin/ansible/content/published/collections/artifacts/community-general-8.3.0.tar.gz to /root/.ansible/tmp/ansible-local-7577fdrfbmxa/tmp72eva745/community-general-8.3.0-hf26f6a6
+2025-05-19 01:12:06,692 p=7577 u=root n=ansible | /
+2025-05-19 01:12:06,800 p=7577 u=root n=ansible | -
+2025-05-19 01:12:06,902 p=7577 u=root n=ansible | \
+2025-05-19 01:12:07,003 p=7577 u=root n=ansible | |
+2025-05-19 01:12:07,103 p=7577 u=root n=ansible | /
+2025-05-19 01:12:07,204 p=7577 u=root n=ansible | -
+2025-05-19 01:12:07,304 p=7577 u=root n=ansible | \
+2025-05-19 01:12:07,405 p=7577 u=root n=ansible | |
+2025-05-19 01:12:07,506 p=7577 u=root n=ansible | /
+2025-05-19 01:12:07,607 p=7577 u=root n=ansible | -
+2025-05-19 01:12:07,707 p=7577 u=root n=ansible | \
+2025-05-19 01:12:07,808 p=7577 u=root n=ansible | |
+2025-05-19 01:12:07,909 p=7577 u=root n=ansible | /
+2025-05-19 01:12:08,009 p=7577 u=root n=ansible | -
+2025-05-19 01:12:08,110 p=7577 u=root n=ansible | \
+2025-05-19 01:12:08,210 p=7577 u=root n=ansible | |
+2025-05-19 01:12:08,310 p=7577 u=root n=ansible | /
+2025-05-19 01:12:08,411 p=7577 u=root n=ansible | -
+2025-05-19 01:12:08,512 p=7577 u=root n=ansible | Installing 'community.general:8.3.0' to '/root/.ansible/collections/ansible_collections/community/general'
+2025-05-19 01:12:08,512 p=7577 u=root n=ansible | \
+2025-05-19 01:12:08,612 p=7577 u=root n=ansible | |
+2025-05-19 01:12:08,714 p=7577 u=root n=ansible | /
+2025-05-19 01:12:08,816 p=7577 u=root n=ansible | -
+2025-05-19 01:12:08,925 p=7577 u=root n=ansible | \
+2025-05-19 01:12:09,031 p=7577 u=root n=ansible | |
+2025-05-19 01:12:09,132 p=7577 u=root n=ansible | /
+2025-05-19 01:12:09,238 p=7577 u=root n=ansible | -
+2025-05-19 01:12:09,338 p=7577 u=root n=ansible | \
+2025-05-19 01:12:09,440 p=7577 u=root n=ansible | |
+2025-05-19 01:12:09,544 p=7577 u=root n=ansible | /
+2025-05-19 01:12:09,644 p=7577 u=root n=ansible | -
+2025-05-19 01:12:09,750 p=7577 u=root n=ansible | \
+2025-05-19 01:12:09,861 p=7577 u=root n=ansible | |
+2025-05-19 01:12:09,969 p=7577 u=root n=ansible | /
+2025-05-19 01:12:10,070 p=7577 u=root n=ansible | -
+2025-05-19 01:12:10,170 p=7577 u=root n=ansible | \
+2025-05-19 01:12:10,272 p=7577 u=root n=ansible | |
+2025-05-19 01:12:10,372 p=7577 u=root n=ansible | /
+2025-05-19 01:12:10,473 p=7577 u=root n=ansible | -
+2025-05-19 01:12:10,574 p=7577 u=root n=ansible | \
+2025-05-19 01:12:10,676 p=7577 u=root n=ansible | |
+2025-05-19 01:12:10,777 p=7577 u=root n=ansible | /
+2025-05-19 01:12:10,879 p=7577 u=root n=ansible | -
+2025-05-19 01:12:10,980 p=7577 u=root n=ansible | \
+2025-05-19 01:12:11,083 p=7577 u=root n=ansible | |
+2025-05-19 01:12:11,185 p=7577 u=root n=ansible | /
+2025-05-19 01:12:11,287 p=7577 u=root n=ansible | -
+2025-05-19 01:12:11,387 p=7577 u=root n=ansible | \
+2025-05-19 01:12:11,488 p=7577 u=root n=ansible | |
+2025-05-19 01:12:11,590 p=7577 u=root n=ansible | /
+2025-05-19 01:12:11,691 p=7577 u=root n=ansible | -
+2025-05-19 01:12:11,793 p=7577 u=root n=ansible | \
+2025-05-19 01:12:11,894 p=7577 u=root n=ansible | |
+2025-05-19 01:12:11,995 p=7577 u=root n=ansible | /
+2025-05-19 01:12:12,101 p=7577 u=root n=ansible | -
+2025-05-19 01:12:12,206 p=7577 u=root n=ansible | \
+2025-05-19 01:12:12,307 p=7577 u=root n=ansible | |
+2025-05-19 01:12:12,407 p=7577 u=root n=ansible | /
+2025-05-19 01:12:12,508 p=7577 u=root n=ansible | -
+2025-05-19 01:12:12,609 p=7577 u=root n=ansible | \
+2025-05-19 01:12:12,710 p=7577 u=root n=ansible | |
+2025-05-19 01:12:12,810 p=7577 u=root n=ansible | /
+2025-05-19 01:12:12,911 p=7577 u=root n=ansible | -
+2025-05-19 01:12:13,011 p=7577 u=root n=ansible | \
+2025-05-19 01:12:13,112 p=7577 u=root n=ansible | |
+2025-05-19 01:12:13,213 p=7577 u=root n=ansible | /
+2025-05-19 01:12:13,314 p=7577 u=root n=ansible | -
+2025-05-19 01:12:13,414 p=7577 u=root n=ansible | \
+2025-05-19 01:12:13,516 p=7577 u=root n=ansible | |
+2025-05-19 01:12:13,616 p=7577 u=root n=ansible | /
+2025-05-19 01:12:13,717 p=7577 u=root n=ansible | -
+2025-05-19 01:12:13,817 p=7577 u=root n=ansible | \
+2025-05-19 01:12:13,920 p=7577 u=root n=ansible | |
+2025-05-19 01:12:14,021 p=7577 u=root n=ansible | /
+2025-05-19 01:12:14,126 p=7577 u=root n=ansible | -
+2025-05-19 01:12:14,232 p=7577 u=root n=ansible | \
+2025-05-19 01:12:14,332 p=7577 u=root n=ansible | |
+2025-05-19 01:12:14,433 p=7577 u=root n=ansible | /
+2025-05-19 01:12:14,534 p=7577 u=root n=ansible | -
+2025-05-19 01:12:14,634 p=7577 u=root n=ansible | \
+2025-05-19 01:12:14,735 p=7577 u=root n=ansible | |
+2025-05-19 01:12:14,835 p=7577 u=root n=ansible | /
+2025-05-19 01:12:14,936 p=7577 u=root n=ansible | community.general:8.3.0 was installed successfully
+2025-05-19 01:14:40,181 p=7590 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:14:40,200 p=7590 u=root n=ansible | Starting galaxy collection install process
+2025-05-19 01:14:40,210 p=7590 u=root n=ansible | Process install dependency map
+2025-05-19 01:14:40,210 p=7590 u=root n=ansible | |
+2025-05-19 01:14:40,316 p=7590 u=root n=ansible | /
+2025-05-19 01:14:40,488 p=7590 u=root n=ansible | -
+2025-05-19 01:14:40,589 p=7590 u=root n=ansible | \
+2025-05-19 01:14:40,689 p=7590 u=root n=ansible | |
+2025-05-19 01:14:40,790 p=7590 u=root n=ansible | /
+2025-05-19 01:14:40,894 p=7590 u=root n=ansible | -
+2025-05-19 01:14:41,074 p=7590 u=root n=ansible | \
+2025-05-19 01:14:41,176 p=7590 u=root n=ansible | |
+2025-05-19 01:14:41,277 p=7590 u=root n=ansible | /
+2025-05-19 01:14:41,377 p=7590 u=root n=ansible | -
+2025-05-19 01:14:41,480 p=7590 u=root n=ansible | \
+2025-05-19 01:14:41,606 p=7590 u=root n=ansible | |
+2025-05-19 01:14:41,708 p=7590 u=root n=ansible | /
+2025-05-19 01:14:41,809 p=7590 u=root n=ansible | -
+2025-05-19 01:14:41,911 p=7590 u=root n=ansible | \
+2025-05-19 01:14:42,012 p=7590 u=root n=ansible | |
+2025-05-19 01:14:42,113 p=7590 u=root n=ansible | Starting collection install process
+2025-05-19 01:14:42,114 p=7590 u=root n=ansible | |
+2025-05-19 01:14:42,145 p=7590 u=root n=ansible | Downloading https://galaxy.ansible.com/api/v3/plugin/ansible/content/published/collections/artifacts/ansible-posix-1.5.4.tar.gz to /root/.ansible/tmp/ansible-local-7590zkz8x2v3/tmpjebfehp6/ansible-posix-1.5.4-3r4vuk7i
+2025-05-19 01:14:42,217 p=7590 u=root n=ansible | 'community.general:8.3.0' is already installed, skipping.
+2025-05-19 01:14:42,218 p=7590 u=root n=ansible | /
+2025-05-19 01:14:42,318 p=7590 u=root n=ansible | -
+2025-05-19 01:14:42,419 p=7590 u=root n=ansible | \
+2025-05-19 01:14:42,519 p=7590 u=root n=ansible | |
+2025-05-19 01:14:42,620 p=7590 u=root n=ansible | /
+2025-05-19 01:14:42,720 p=7590 u=root n=ansible | -
+2025-05-19 01:14:42,821 p=7590 u=root n=ansible | \
+2025-05-19 01:14:42,922 p=7590 u=root n=ansible | |
+2025-05-19 01:14:43,023 p=7590 u=root n=ansible | /
+2025-05-19 01:14:43,123 p=7590 u=root n=ansible | -
+2025-05-19 01:14:43,224 p=7590 u=root n=ansible | \
+2025-05-19 01:14:43,324 p=7590 u=root n=ansible | |
+2025-05-19 01:14:43,425 p=7590 u=root n=ansible | /
+2025-05-19 01:14:43,525 p=7590 u=root n=ansible | -
+2025-05-19 01:14:43,626 p=7590 u=root n=ansible | \
+2025-05-19 01:14:43,727 p=7590 u=root n=ansible | Installing 'ansible.posix:1.5.4' to '/root/.ansible/collections/ansible_collections/ansible/posix'
+2025-05-19 01:14:43,727 p=7590 u=root n=ansible | |
+2025-05-19 01:14:43,828 p=7590 u=root n=ansible | /
+2025-05-19 01:14:43,929 p=7590 u=root n=ansible | ansible.posix:1.5.4 was installed successfully
+2025-05-19 01:14:48,873 p=7594 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core
+ in version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 01:14:48,874 p=7594 u=root n=ansible | Starting galaxy role install process
+2025-05-19 01:14:48,875 p=7594 u=root n=ansible | - geerlingguy.docker (6.1.0) is already installed, skipping.
+2025-05-19 01:14:49,232 p=7594 u=root n=ansible | - downloading role 'security', owned by geerlingguy
+2025-05-19 01:14:49,958 p=7594 u=root n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-security/archive/1.7.0.tar.gz
+2025-05-19 01:14:50,475 p=7594 u=root n=ansible | - extracting geerlingguy.security to /root/ansible/ansible/roles/geerlingguy.security
+2025-05-19 01:14:50,493 p=7594 u=root n=ansible | - geerlingguy.security (1.7.0) was installed successfully
