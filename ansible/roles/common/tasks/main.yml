@@ -1,0 +1,43 @@
+---
+- name: Install common packages on Debian-based
+  apt:
+    name: "{{ common_packages.debian }}"
+    state: present
+    update_cache: yes
+  when: ansible_os_family == "Debian"
+
+- name: Install common packages on RedHat-based
+  yum:
+    name: "{{ common_packages.redhat }}"
+    state: present
+  when: ansible_os_family == "RedHat"
+
+- name: Set timezone to UTC
+  ansible.builtin.command: timedatectl set-timezone UTC
+  become: yes
+
+- name: Ensure NTP is installed and enabled (Debian)
+  apt:
+    name: ntp
+    state: present
+  when: ansible_os_family == "Debian"
+
+- name: Ensure NTP is installed and enabled (RedHat)
+  yum:
+    name: chrony
+    state: present
+  when: ansible_os_family == "RedHat"
+
+- name: Enable and start NTP service (Debian)
+  service:
+    name: ntp
+    state: started
+    enabled: yes
+  when: ansible_os_family == "Debian"
+
+- name: Enable and start NTP service (RedHat)
+  service:
+    name: chronyd
+    state: started
+    enabled: yes
+  when: ansible_os_family == "RedHat"

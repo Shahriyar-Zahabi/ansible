@@ -1,0 +1,16 @@
+---
+common_packages:
+  debian:
+    - vim
+    - curl
+    - git
+    - sudo
+    - net-tools
+    - gnupg
+  redhat:
+    - vim
+    - curl
+    - git
+    - sudo
+    - net-tools
+    - gnupg2

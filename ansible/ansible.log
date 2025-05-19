@@ -203,3 +203,70 @@
 2025-05-19 01:14:49,958 p=7594 u=root n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-security/archive/1.7.0.tar.gz
 2025-05-19 01:14:50,475 p=7594 u=root n=ansible | - extracting geerlingguy.security to /root/ansible/ansible/roles/geerlingguy.security
 2025-05-19 01:14:50,493 p=7594 u=root n=ansible | - geerlingguy.security (1.7.0) was installed successfully
+2025-05-19 02:09:19,965 p=8303 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core in version 2.15. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 02:09:20,325 p=8303 u=root n=ansible | PLAY [all] ****************************************************************************************************************************************************************************************
+2025-05-19 02:09:20,348 p=8303 u=root n=ansible | TASK [Gathering Facts] ****************************************************************************************************************************************************************************
+2025-05-19 02:09:20,348 p=8303 u=root n=ansible | Monday 19 May 2025  02:09:20 +0000 (0:00:00.026)       0:00:00.026 ************ 
+2025-05-19 02:09:21,173 p=8303 u=root n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host 91.107.155.161: Failed to connect to the host via ssh: Warning: Permanently added '91.107.155.161' (ED25519) to the list of
+known hosts.  no such identity: /root/.ssh/*: No such file or directory  root@91.107.155.161: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+
+2025-05-19 02:09:21,309 p=8303 u=root n=ansible | fatal: [91.107.155.161]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"91.107.155.161\". Make sure this host can be reached over ssh: no such identity: /root/.ssh/*: No such file or directory\r\nroot@91.107.155.161: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2025-05-19 02:09:21,310 p=8303 u=root n=ansible | PLAY RECAP ****************************************************************************************************************************************************************************************
+2025-05-19 02:09:21,311 p=8303 u=root n=ansible | 91.107.155.161             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-19 02:09:21,311 p=8303 u=root n=ansible | Monday 19 May 2025  02:09:21 +0000 (0:00:00.962)       0:00:00.989 ************ 
+2025-05-19 02:09:21,311 p=8303 u=root n=ansible | =============================================================================== 
+2025-05-19 02:09:21,311 p=8303 u=root n=ansible | Gathering Facts ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.96s
+2025-05-19 02:11:42,633 p=8356 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core in version 2.15. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 02:11:42,877 p=8356 u=root n=ansible | PLAY [all] ****************************************************************************************************************************************************************************************
+2025-05-19 02:11:42,898 p=8356 u=root n=ansible | TASK [Gathering Facts] ****************************************************************************************************************************************************************************
+2025-05-19 02:11:42,899 p=8356 u=root n=ansible | Monday 19 May 2025  02:11:42 +0000 (0:00:00.025)       0:00:00.025 ************ 
+2025-05-19 02:11:43,484 p=8356 u=root n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host 91.107.155.161: Failed to connect to the host via ssh: root@91.107.155.161: Permission denied (publickey,gssapi-keyex,gssapi-
+with-mic,password).
+
+2025-05-19 02:11:43,619 p=8356 u=root n=ansible | fatal: [91.107.155.161]: UNREACHABLE! => {"changed": false, "msg": "Data could not be sent to remote host \"91.107.155.161\". Make sure this host can be reached over ssh: root@91.107.155.161: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2025-05-19 02:11:43,620 p=8356 u=root n=ansible | PLAY RECAP ****************************************************************************************************************************************************************************************
+2025-05-19 02:11:43,621 p=8356 u=root n=ansible | 91.107.155.161             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-19 02:11:43,621 p=8356 u=root n=ansible | Monday 19 May 2025  02:11:43 +0000 (0:00:00.722)       0:00:00.748 ************ 
+2025-05-19 02:11:43,621 p=8356 u=root n=ansible | =============================================================================== 
+2025-05-19 02:11:43,622 p=8356 u=root n=ansible | Gathering Facts ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.72s
+2025-05-19 02:13:38,206 p=8371 u=root n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new standard, use callbacks_enabled instead. This feature will be removed from ansible-core in version 2.15. 
+Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2025-05-19 02:13:44,077 p=8371 u=root n=ansible | PLAY [all] ****************************************************************************************************************************************************************************************
+2025-05-19 02:13:44,095 p=8371 u=root n=ansible | TASK [Gathering Facts] ****************************************************************************************************************************************************************************
+2025-05-19 02:13:44,095 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:44 +0000 (0:00:00.022)       0:00:00.022 ************ 
+2025-05-19 02:13:46,477 p=8371 u=root n=ansible | ok: [91.107.155.161]
+2025-05-19 02:13:46,515 p=8371 u=root n=ansible | TASK [common : Install common packages on Debian-based] *******************************************************************************************************************************************
+2025-05-19 02:13:46,515 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:46 +0000 (0:00:02.419)       0:00:02.441 ************ 
+2025-05-19 02:13:46,542 p=8371 u=root n=ansible | skipping: [91.107.155.161]
+2025-05-19 02:13:46,556 p=8371 u=root n=ansible | TASK [common : Install common packages on RedHat-based] *******************************************************************************************************************************************
+2025-05-19 02:13:46,556 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:46 +0000 (0:00:00.041)       0:00:02.482 ************ 
+2025-05-19 02:13:58,239 p=8371 u=root n=ansible | changed: [91.107.155.161]
+2025-05-19 02:13:58,252 p=8371 u=root n=ansible | TASK [common : Set timezone to UTC] ***************************************************************************************************************************************************************
+2025-05-19 02:13:58,252 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:58 +0000 (0:00:11.696)       0:00:14.179 ************ 
+2025-05-19 02:13:59,115 p=8371 u=root n=ansible | changed: [91.107.155.161]
+2025-05-19 02:13:59,129 p=8371 u=root n=ansible | TASK [common : Ensure NTP is installed and enabled (Debian)] **************************************************************************************************************************************
+2025-05-19 02:13:59,129 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:59 +0000 (0:00:00.876)       0:00:15.055 ************ 
+2025-05-19 02:13:59,160 p=8371 u=root n=ansible | skipping: [91.107.155.161]
+2025-05-19 02:13:59,180 p=8371 u=root n=ansible | TASK [common : Ensure NTP is installed and enabled (RedHat)] **************************************************************************************************************************************
+2025-05-19 02:13:59,180 p=8371 u=root n=ansible | Monday 19 May 2025  02:13:59 +0000 (0:00:00.051)       0:00:15.107 ************ 
+2025-05-19 02:14:01,151 p=8371 u=root n=ansible | ok: [91.107.155.161]
+2025-05-19 02:14:01,165 p=8371 u=root n=ansible | TASK [common : Enable and start NTP service (Debian)] *********************************************************************************************************************************************
+2025-05-19 02:14:01,166 p=8371 u=root n=ansible | Monday 19 May 2025  02:14:01 +0000 (0:00:01.985)       0:00:17.092 ************ 
+2025-05-19 02:14:01,192 p=8371 u=root n=ansible | skipping: [91.107.155.161]
+2025-05-19 02:14:01,211 p=8371 u=root n=ansible | TASK [common : Enable and start NTP service (RedHat)] *********************************************************************************************************************************************
+2025-05-19 02:14:01,211 p=8371 u=root n=ansible | Monday 19 May 2025  02:14:01 +0000 (0:00:00.045)       0:00:17.138 ************ 
+2025-05-19 02:14:02,665 p=8371 u=root n=ansible | ok: [91.107.155.161]
+2025-05-19 02:14:02,752 p=8371 u=root n=ansible | PLAY RECAP ****************************************************************************************************************************************************************************************
+2025-05-19 02:14:02,753 p=8371 u=root n=ansible | 91.107.155.161             : ok=5    changed=2    unreachable=0    failed=0    skipped=3    rescued=0    ignored=0   
+2025-05-19 02:14:02,753 p=8371 u=root n=ansible | Monday 19 May 2025  02:14:02 +0000 (0:00:01.541)       0:00:18.679 ************ 
+2025-05-19 02:14:02,753 p=8371 u=root n=ansible | =============================================================================== 
+2025-05-19 02:14:02,753 p=8371 u=root n=ansible | common : Install common packages on RedHat-based ------------------------------------------------------------------------------------------------------------------------------------------ 11.70s
+2025-05-19 02:14:02,753 p=8371 u=root n=ansible | Gathering Facts ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 2.42s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Ensure NTP is installed and enabled (RedHat) -------------------------------------------------------------------------------------------------------------------------------------- 1.99s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Enable and start NTP service (RedHat) --------------------------------------------------------------------------------------------------------------------------------------------- 1.54s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Set timezone to UTC --------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.88s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Ensure NTP is installed and enabled (Debian) -------------------------------------------------------------------------------------------------------------------------------------- 0.05s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Enable and start NTP service (Debian) --------------------------------------------------------------------------------------------------------------------------------------------- 0.05s
+2025-05-19 02:14:02,754 p=8371 u=root n=ansible | common : Install common packages on Debian-based ------------------------------------------------------------------------------------------------------------------------------------------- 0.04s
